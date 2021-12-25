@@ -1,0 +1,141 @@
+/* bootstrap */
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 1rem;
+}
+
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(-1 * var(--bs-gutter-y));
+	margin-right: calc(-0.5 * var(--bs-gutter-x));
+	margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.col-6 {
+	flex: 0 0 auto;
+	width: 50%;
+}
+
+.card-header {
+	padding: 0.5rem 1rem;
+	margin-bottom: 0;
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+.card-body {
+	padding: 0 1rem;
+	margin: 0;
+}
+
+.card-footer {
+	padding: 0 1rem 0 1rem;
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* CUSTOM */
+body {
+	background-color: hsl(217, 54%, 11%);
+	font-family: 'Outfit', sans-serif;
+}
+
+.nft-card {
+	width: 21%;
+	height: 73%;
+	padding: 1rem 0.5rem 2rem;
+	background-color: hsl(216, 50%, 16%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* card header */
+.div-img {
+	border-radius: 0.5rem;
+}
+.img-eq {
+	width: 100%;
+	border-radius: 0.5rem;
+	z-index: -1;
+}
+
+.img-eq:hover {
+	opacity: 0.5;
+}
+
+.svg-view {
+	position: absolute;
+	top: 130px;
+	left: 130px;
+	/* display: none; */
+}
+
+h3 {
+	color: hsl(0, 0%, 100%);
+	transition: background-color .5s;
+}
+/* card-body */
+
+.card-body {
+	color: hsl(215, 51%, 70%);
+	font-size: 16px;
+	font-weight: 100;
+}
+.svg-eth {
+	height: 10px;
+}
+.div-eth,
+.div-days {
+	margin-top: 1rem;
+}
+
+.span-eth {
+	color: hsl(178, 100%, 50%);
+	font-size: 13px;
+	font-weight: 500;
+}
+
+hr {
+	margin-top: 1rem;
+	width: 90%;
+	border-top: 1px solid;
+	border-color: hsl(215, 32%, 27%);
+}
+/* card-footer */
+
+.card-footer {
+	color: hsl(0, 0%, 100%);
+	font-size: 15px;
+}
+.p-cr {
+	color: hsl(215, 51%, 70%);
+	padding-left: 2%;
+}
+
+.p-name {
+	color: hsl(0, 0%, 100%);
+	padding-left: 1%;
+}
+.span-img {
+	position: relative;
+	top: 7px;
+}
+
+.img-av {
+	width: 10%;
+	border-radius: 100%;
+}
+
+/* .span-img, .p-name, .p-cr{
+  margin-bottom: 5%;
+} */
